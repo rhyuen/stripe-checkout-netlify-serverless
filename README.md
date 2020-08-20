@@ -14,6 +14,19 @@
 </script>
 ```
 
+2. If you have an `.env` file then `netlify dev` ignores the environment variables that you have in production.
+
+![Command Line Screenshot](./readme_images/netlifydev.png)
+
+
+3. You can configure `git` to go to the github page for your repo.
+
+> $ git browse ##  You have to set things in your git config though.  I have yet to do this.
+
+4. Html `<Templates/>` and `document.querySelector()`.
+
+> I always used `getElementById()` or one of the other ones.  I had no idea about <Template/>.
+
 ## ENDPOINTS
 
 1. `/.netlify/functions/get-products.js`
