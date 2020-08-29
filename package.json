@@ -1,0 +1,25 @@
+{
+  "name": "stripe-checkout-netlify-serverless",
+  "version": "1.0.0",
+  "description": "> Following the tutorial [here](https://egghead.io/lessons/javascript-return-json-data-from-a-serverless-function-using-netlify-functions?pl=sell-products-using-stripe-checkout-and-netlify-functions-25f6).",
+  "main": "index.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "stripe": "^8.90.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhyuen/stripe-checkout-netlify-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhyuen/stripe-checkout-netlify-serverless/issues"
+  },
+  "homepage": "https://github.com/rhyuen/stripe-checkout-netlify-serverless#readme"
+}
